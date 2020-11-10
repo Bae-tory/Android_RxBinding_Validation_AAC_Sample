@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.project.rainist_android_test.ui.login.LoginViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.login.LoginActivity">
+
+        <EditText
+            android:id="@+id/et_login_email"
+            style="@style/SignUp_EditText"
+            android:layout_width="@dimen/length_signup_huge"
+            android:layout_height="@dimen/length_deluxe_large"
+            android:layout_marginTop="@dimen/spacing_xxx_huge"
+            android:gravity="center_vertical"
+            android:hint="@string/please_input_signup_email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/text_mini"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_login_pwd"
+            style="@style/SignUp_EditText"
+            android:layout_width="@dimen/length_signup_huge"
+            android:layout_height="@dimen/length_deluxe_large"
+            android:layout_marginTop="@dimen/spacing_x_large"
+            android:hint="@string/please_input_signup_pwd"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/text_micro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_login_email" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/length_deluxe_large"
+            android:layout_marginHorizontal="@dimen/length_deluxe_super_large"
+            android:layout_marginTop="@dimen/length_deluxe_large"
+            android:background="@color/EngageButtonBackGround"
+            android:enabled="false"
+            android:text="@string/login_button"
+            android:textColor="@color/EngageButtonTextColor"
+            android:textSize="@dimen/text_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_login_pwd" />
+
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xx_large"
+            android:text="@string/go_to_signup_page"
+            android:textColor="@color/Coral"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_login" />
+
+        <ViewStub
+            android:id="@+id/loading_stub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout="@layout/progress_loading"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

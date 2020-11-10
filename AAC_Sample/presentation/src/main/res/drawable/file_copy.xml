@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/LightLightBlue" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/spacing_mini_1"
+        android:drawable="@drawable/outline_file_copy_24_px"
+        android:left="@dimen/spacing_mini_1"
+        android:right="@dimen/spacing_mini_1"
+        android:top="@dimen/spacing_mini_1" />
+</layer-list>

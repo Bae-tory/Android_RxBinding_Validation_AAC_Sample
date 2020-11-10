@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/Accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SignUp_DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/DatePickerPrimary</item>
+        <item name="colorPrimaryDark">@color/DatePickerPrimaryDark</item>
+        <item name="colorAccent">@color/DatePickerAccent</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/DatePickerselectableItemBackgroundBorderless</item>
+        <item name="colorControlHighlight">@color/DatePickerControlHighlight</item>
+        <item name="colorControlActivated">@color/DatePickerControlActivated</item>
+    </style>
+
+
+    <style name="SignUp_EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/EditTextHint</item>
+        <item name="android:textColor">@color/EditTextText</item>
+        <item name="backgroundTint">@color/EditTextLine</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">30</item>
+    </style>
+
+    <style name="SignUp_RadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/RadioButtonTint</item>
+        <item name="android:textColor">@color/LightGray</item>
+        <item name="android:textSize">@dimen/text_mini</item>
+    </style>
+
+    <style name="SignUp_CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/CheckBoxTint</item>
+        <item name="android:textColor">@color/LightGray</item>
+        <item name="android:textSize">@dimen/text_mini</item>
+    </style>
+
+    <style name="Result_TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/Gray</item>
+        <item name="android:layout_marginTop">@dimen/spacing_deluxe_large</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+</resources>

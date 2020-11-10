@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.project.rainist_android_test.component.Gender" />
+
+        <variable
+            name="vm"
+            type="com.project.rainist_android_test.ui.signup.SignUpViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Background"
+        tools:context=".ui.signup.SignUpActivity">
+
+        <ScrollView
+            android:id="@+id/src_parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/et_signup_email"
+                    style="@style/SignUp_EditText"
+                    android:layout_width="@dimen/length_signup_huge"
+                    android:layout_height="@dimen/length_deluxe_large"
+                    android:layout_marginTop="@dimen/spacing_deluxe_large"
+                    android:gravity="center_vertical"
+                    android:hint="@string/please_input_signup_email"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:text="@={vm.email}"
+                    android:textSize="@dimen/text_mini"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/et_signup_pwd"
+                    style="@style/SignUp_EditText"
+                    android:layout_width="@dimen/length_signup_huge"
+                    android:layout_height="@dimen/length_deluxe_large"
+                    android:layout_marginTop="@dimen/spacing_x_large"
+                    android:hint="@string/please_input_signup_pwd"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:text="@={vm.password}"
+                    android:textSize="@dimen/text_micro"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_signup_email" />
+
+                <CheckBox
+                    android:id="@+id/cb_pwd_visible"
+                    android:layout_width="@dimen/length_x_large"
+                    android:layout_height="@dimen/length_x_large"
+                    android:button="@drawable/check_button_visible"
+                    android:checked="true"
+                    app:layout_constraintBottom_toBottomOf="@id/et_signup_pwd"
+                    app:layout_constraintEnd_toEndOf="@+id/et_signup_pwd"
+                    app:layout_constraintTop_toTopOf="@id/et_signup_pwd" />
+
+                <EditText
+                    android:id="@+id/et_signup_pwd_confirm"
+                    style="@style/SignUp_EditText"
+                    android:layout_width="@dimen/length_signup_huge"
+                    android:layout_height="@dimen/length_deluxe_large"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:hint="@string/please_input_signup_pwd_confirm"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:text="@={vm.confirmPassword}"
+                    android:textSize="@dimen/text_micro"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_signup_pwd" />
+
+                <EditText
+                    android:id="@+id/et_signup_nickname"
+                    style="@style/SignUp_EditText"
+                    android:layout_width="@dimen/length_signup_huge"
+                    android:layout_height="@dimen/length_deluxe_large"
+                    android:layout_marginTop="@dimen/spacing_x_large"
+                    android:hint="@string/please_input_signup_nickname"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:text="@={vm.nickname}"
+                    android:textSize="@dimen/text_mini"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_signup_pwd_confirm" />
+
+                <EditText
+                    android:id="@+id/et_signup_birthday"
+                    style="@style/SignUp_EditText"
+                    android:layout_width="@dimen/length_signup_huge"
+                    android:layout_height="@dimen/length_deluxe_large"
+                    android:layout_marginTop="@dimen/spacing_x_large"
+                    android:hint="@string/please_input_signup_birthday"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:text="@={vm.birthday}"
+                    android:textSize="@dimen/text_mini"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="@+id/et_signup_nickname"
+                    app:layout_constraintTop_toBottomOf="@id/et_signup_nickname" />
+
+                <TextView
+                    android:id="@+id/tv_gender_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    android:layout_marginTop="@dimen/spacing_xxx_large"
+                    android:text="@string/please_input_signup_gender_comment"
+                    android:textColor="@color/Gray"
+                    android:textSize="@dimen/text_normal"
+                    app:layout_constraintStart_toStartOf="@+id/et_signup_birthday"
+                    app:layout_constraintTop_toBottomOf="@id/et_signup_birthday" />
+
+                <RadioGroup
+                    android:id="@+id/rg_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/tv_gender_comment"
+                    app:layout_constraintTop_toBottomOf="@id/tv_gender_comment">
+
+                    <RadioButton
+                        style="@style/SignUp_RadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="@{vm.gender == Gender.Man}"
+                        android:onClick="@{()-> vm.setGender(Gender.Man)}"
+                        android:text="@string/gender_man" />
+
+                    <RadioButton
+                        style="@style/SignUp_RadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/spacing_small"
+                        android:checked="@{vm.gender == Gender.Woman}"
+                        android:onClick="@{()-> vm.setGender(Gender.Woman)}"
+                        android:text="@string/gender_woman" />
+
+                    <RadioButton
+                        style="@style/SignUp_RadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/spacing_small"
+                        android:checked="@{vm.gender == Gender.NonSelected}"
+                        android:onClick="@{()-> vm.setGender(Gender.NonSelected)}"
+                        android:text="@string/gender_non_selected" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv_agree_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    android:layout_marginTop="@dimen/spacing_deluxe_large"
+                    android:text="@string/please_input_signup_agree_comment"
+                    android:textColor="@color/Gray"
+                    android:textSize="@dimen/text_normal"
+                    app:layout_constraintStart_toStartOf="@+id/et_signup_birthday"
+                    app:layout_constraintTop_toBottomOf="@id/rg_gender" />
+
+                <CheckBox
+                    android:id="@+id/cb_agree_term"
+                    style="@style/SignUp_CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_normal"
+                    android:checked="@={vm.agreeTerm}"
+                    android:text="@string/signup_agree_term"
+                    app:layout_constraintStart_toStartOf="@id/rg_gender"
+                    app:layout_constraintTop_toBottomOf="@id/tv_agree_comment" />
+
+                <CheckBox
+                    android:id="@+id/cb_agree_marketing"
+                    style="@style/SignUp_CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="@={vm.agreeMarketing}"
+                    android:text="@string/signup_agree_marketing"
+                    app:layout_constraintStart_toEndOf="@id/cb_agree_term"
+                    app:layout_constraintTop_toTopOf="@id/cb_agree_term" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_engage"
+            onThrottleClick="@{() -> vm.btnSignUpButtonClicked()}"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/length_deluxe_large"
+            android:background="@color/EngageButtonBackGround"
+            android:enabled="false"
+            android:text="@string/signup_button"
+            android:textColor="@color/EngageButtonTextColor"
+            android:textSize="@dimen/text_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ViewStub
+            android:id="@+id/loading_stub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout="@layout/progress_loading"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

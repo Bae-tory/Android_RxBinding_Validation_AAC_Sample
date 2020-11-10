@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  View Length  -->
+    <dimen name="length_line">1dp</dimen>
+    <dimen name="length_micro">2dp</dimen>
+    <dimen name="length_mini">4dp</dimen>
+    <dimen name="length_small">8dp</dimen>
+    <dimen name="length_elevation">10dp</dimen>
+    <dimen name="length_normal">12dp</dimen>
+    <dimen name="length_large">16dp</dimen>
+    <dimen name="length_x_large">24dp</dimen>
+    <dimen name="length_xx_large">32dp</dimen>
+    <dimen name="length_xxx_large">48dp</dimen>
+    <dimen name="length_deluxe_large">52dp</dimen>
+    <dimen name="length_deluxe_super_large">88dp</dimen>
+
+    <!--   SignUp View Length-->
+    <dimen name="length_signup_small">250dp</dimen>
+    <dimen name="length_signup_medium">280dp</dimen>
+    <dimen name="length_signup_huge">300dp</dimen>
+    <dimen name="length_progress_loading">100dp</dimen>
+
+
+    <!--  Text Size  -->
+    <dimen name="text_micro">10sp</dimen>
+    <dimen name="text_mini">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_x_large">20sp</dimen>
+    <dimen name="text_xx_large">24sp</dimen>
+    <dimen name="text_xxx_large">30sp</dimen>
+
+    <!--  Spacing  -->
+    <dimen name="spacing_micro">2dp</dimen>
+    <dimen name="spacing_mini">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="spacing_x_large">24dp</dimen>
+    <dimen name="spacing_xx_large">32dp</dimen>
+    <dimen name="spacing_xxx_large">38dp</dimen>
+    <dimen name="spacing_deluxe_large">54dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+    <dimen name="spacing_x_huge">70dp</dimen>
+    <dimen name="spacing_xx_huge">75dp</dimen>
+    <dimen name="spacing_xxx_huge">88dp</dimen>
+
+    <!--  Radius  -->
+    <dimen name="four_radius">4dp</dimen>
+    <dimen name="five_radius">10dp</dimen>
+    <dimen name="ten_radius">10dp</dimen>
+    <dimen name="twenty_radius">20dp</dimen>
+    <dimen name="thirty_radius">30dp</dimen>
+</resources>

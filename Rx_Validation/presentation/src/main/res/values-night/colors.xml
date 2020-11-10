@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">@color/Black</color>
+    <color name="PrimaryDark">@color/Black</color>
+    <color name="Accent">@color/Black</color>
+
+    <color name="White">#ffffff</color>
+    <color name="Blue">#03a9f4</color>
+    <color name="LightBlue">#a7e0fa</color>
+    <color name="LightLightBlue">#daf3fe</color>
+    <color name="LightLightLightBlue">#fff0fff0</color>
+
+    <color name="Green">#339966</color>
+
+    <color name="Black">#212121</color>
+    <color name="Gray">#757575</color>
+    <color name="LightGray">#aaaaaa</color>
+    <color name="LightLightGray">#e1e1e1</color>
+    <color name="LightLightLightGray">#f0f0f0</color>
+
+    <!--  View BackGround  -->
+    <color name="Background">@color/Black</color>
+
+    <!--  DatePicker  -->
+    <color name="DatePickerPrimary">@color/Black</color>
+    <color name="DatePickerPrimaryDark">@color/Black</color>
+    <color name="DatePickerAccent">@color/Black</color>
+    <color name="DatePickerselectableItemBackgroundBorderless">@color/White</color>
+    <color name="DatePickerControlHighlight">@color/Gray</color>
+    <color name="DatePickerControlActivated">@color/Black</color>
+
+    <!--  EditText  -->
+    <color name="EditTextHint">@color/LightLightBlue</color>
+    <color name="EditTextText">@color/White</color>
+    <color name="EditTextLine">@color/White</color>
+
+    <!--  RadioButton  -->
+    <color name="RadioButtonTint">@color/White</color>
+
+    <!--  CheckBox  -->
+    <color name="CheckBoxTint">@color/White</color>
+
+    <!--  EngageButton-->
+    <color name="EngageButtonBackGround">@color/Gray</color>
+    <color name="EngageButtonTextColor">@color/White</color>
+
+    <!--  LoadingProgress  -->
+    <color name="LoadingProgressTint">@color/Blue</color>
+    <color name="LoadingProgressBackGround">@color/White</color>
+    <color name="Coral">#FF7F50</color>
+</resources>

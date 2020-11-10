@@ -34,6 +34,7 @@
  - #### View Control
    - ##### RxBinding
    - ##### RxKotlin
+   - ##### Sealed Class
 
  - #### Local
    - ##### Room
@@ -43,9 +44,3 @@
  - #### Remote
    - ##### Retrofit
    - ##### Coroutine
-  
-  
-
-### :book: <i>Reference</i>
------------------
- -

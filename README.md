@@ -17,9 +17,6 @@
 ## :large_orange_diamond: <i>Module & Design Pattern</i>
   - #### UI & Presentation
   - #### DataRepository
-  - #### LocalDataSource, RemoteDataSource
-  - #### Domain & Entity
-  - #### MVVM
  
 ## :boom: <i>Tech Stack</i>
  - #### DI

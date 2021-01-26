@@ -60,32 +60,15 @@
     
  
 - [Hilt-ViewModel-KTX](https://developer.android.com/kotlin/ktx)
-  - 힐트를 사용 시 ViewModelProvider를 통해 Viewmodel을 생성하는 코드를 간편하게 바꾸어주는 기능을 제공합니다.
+
 - [BundleOf](https://developer.android.com/kotlin/ktx/extensions-list?hl=ko)
-  - Activity 또는 Fragment에서 데이터를 넘길 때 유용하게 쓰는 함수입니다.
-  - 아래의 항목들은 intent.putExtra이 가지고 있지 않은 장점을 설명하였습니다.
-  - 내부에서 다양한 Type을 지원하기 때문에 타입캐스팅을 해서 넣어줄 필요가 없습니다.
-  - Parcelable/Serializable 두개의 타입을 동시에 가지고 있는 Class도 Parcelable이 우선위가 높기 때문에 Parcelable로 전달할 수 있습니다.
-  - 상대적으로 보일러 플레이트 코드를 줄일 수 있습니다.
+
 - [RxJava](https://kotlinlang.org/docs/reference/coroutines-overview.html)
-  - 데이터의 흐름을 다양한 오퍼레이터들을 이용해 정의한 뒤, 구독하는 방식으로 로직을 수행할 수 있습니다
-  - 옵저버블과 옵저버의 성격을 둘다 가진 Subject들을 통해서 Viewmodel 내부에서 데이터를 발행하여 Activity에서 구독할 수도 있습니다.
-  - Activity 내부에서 데이터를 발행하여 Viewmodel에서 구독할 수도 있습니다.
+
 - [RxBinding](https://github.com/JakeWharton/RxBinding)  
-  - 회원이 정보를 입력하는 View들을 데이터 스트림 형태로 만들고, 흐름을 정의할 수 있습니다.
-  - 데이터 스트림을 구독하여 관련 로직을 수행할 수 있습니다.
-  - View에 이벤트 들을 다양한 오퍼레이터를 사용하여 제어 및 변형시킬 수 있습니다. 대표적으로 (Debounce, ThrottleFirst, ThrottleLast, filter, map...)
+
 - [Room](https://developer.android.com/topic/libraries/architecture/room)
-  - AAC중 하나이며, 로컬 데이터의 캐싱처리를 위하여 쓰는 로컬 데이터베이스 라이브러리입니다.
-  - 구글에서는 SQLite보다 Room을 쓰기를 권장하고 있습니다.
-  - 쿼리에 대한 문법 오류를 캐치할 수 있고 SQLite보다 직관적이고 쉽게 관리 할 수 있습니다.
-  - 쿼리에 관련된 Dao, 데이터 생성할 수 있는 추상클래스 Database, Table 역할을 하고 있는 RoomEntity 등을 제공하여 보다 구조적으로 로컬 데이터를 파악하고 운용할 수 있습니다.
+
 - [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) - For writing Gradle build scripts using Kotlin.
-  - 일반적으로 안드로이드는 Gradle Groovy DSL로 되어 있습니다.
-  - Kotlin으로 바꾼 이유는 아래와 같이 5가지 이유가 있습니다.
-  - 코드의 자동완성 지원, 빠른 문서보기 가능, 리팩토링 기능, 오류코드 강조 표시 등의 장점이 있습니다. 
-  - 안드로이드 메인 언어인 코틀린이라 적용해보고 싶었습니다.
+
 - [Dark Theme](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme)
-  - 다크테마를 사용하면 유저에게 눈의 피로를 덜어줄 수 있습니다.
-  - 유저에게 중요한 컴포넌트들을 강조시킬 수 있습니다.
-  - 디바이스 파워 사용량을 줄일 수 있습니다.

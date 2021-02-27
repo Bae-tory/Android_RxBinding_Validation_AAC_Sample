@@ -1,5 +1,5 @@
-# RxBinding-Validation-AAC-Sample
-#### This is RxBinding-Validation-AAC-Sample of Baetory :smiley:</br>
+# Android_RxBinding_Validation_AAC_Sample
+#### This is RxBinding_Validation_AAC_Sample of Baetory :smiley:</br>
 #### Subject of Projects is 1) Membership registration and login through RxBinding and RxSubject Validation, 2) AAC sample.</br>
 #### If this repo helps a little, please give me a :star:</br>
 #### Please tell us about the capping technique with ``Issue`` or ``Pull Request``</br>

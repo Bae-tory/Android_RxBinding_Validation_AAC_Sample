@@ -1,17 +1,17 @@
-package com.project.rainist_android_test.ui.info
+package com.project.baetory_rx_validation.ui.info
 
 import android.os.Bundle
 import androidx.activity.viewModels
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.base.BaseActivity
-import com.project.rainist_android_test.databinding.ActivityInfoBinding
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.AGREE_MARKETING
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.AGREE_TERM
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.BIRTHDAY
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.EMAIL
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.GENDER
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.NICKNAME
-import com.project.rainist_android_test.ui.signup.SignUpViewModel.Companion.PASSWORD
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.base.BaseActivity
+import com.project.baetory_rx_validation.databinding.ActivityInfoBinding
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.AGREE_MARKETING
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.AGREE_TERM
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.BIRTHDAY
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.EMAIL
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.GENDER
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.NICKNAME
+import com.project.baetory_rx_validation.ui.signup.SignUpViewModel.Companion.PASSWORD
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

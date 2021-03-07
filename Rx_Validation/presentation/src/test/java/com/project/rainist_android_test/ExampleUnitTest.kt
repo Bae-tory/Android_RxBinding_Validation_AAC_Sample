@@ -1,4 +1,4 @@
-package com.project.rainist_android_test
+package com.project.baetory_rx_validation
 
 import org.junit.Test
 

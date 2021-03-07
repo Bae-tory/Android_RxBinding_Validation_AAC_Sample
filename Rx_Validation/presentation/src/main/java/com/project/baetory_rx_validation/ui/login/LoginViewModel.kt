@@ -1,14 +1,14 @@
-package com.project.rainist_android_test.ui.login
+package com.project.baetory_rx_validation.ui.login
 
 import android.os.Handler
 import androidx.core.os.bundleOf
 import androidx.hilt.lifecycle.ViewModelInject
 import com.project.local.source.LocalDataSource
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.base.BaseViewModel
-import com.project.rainist_android_test.component.ResourceProvider
-import com.project.rainist_android_test.model.UiState
-import com.project.rainist_android_test.model.fromLocal
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.base.BaseViewModel
+import com.project.baetory_rx_validation.component.ResourceProvider
+import com.project.baetory_rx_validation.model.UiState
+import com.project.baetory_rx_validation.model.fromLocal
 import io.reactivex.subjects.PublishSubject
 import java.net.HttpURLConnection.*
 

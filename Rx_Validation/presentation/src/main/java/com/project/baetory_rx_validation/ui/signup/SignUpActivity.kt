@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.ui.signup
+package com.project.baetory_rx_validation.ui.signup
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -10,13 +10,13 @@ import android.widget.Button
 import androidx.activity.viewModels
 import com.jakewharton.rxbinding2.view.RxView
 import com.jakewharton.rxbinding2.widget.RxCompoundButton
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.base.BaseActivity
-import com.project.rainist_android_test.databinding.ActivitySignUpBinding
-import com.project.rainist_android_test.ext.startActivityWithData
-import com.project.rainist_android_test.ext.toast
-import com.project.rainist_android_test.model.UiState
-import com.project.rainist_android_test.ui.info.InfoActivity
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.base.BaseActivity
+import com.project.baetory_rx_validation.databinding.ActivitySignUpBinding
+import com.project.baetory_rx_validation.ext.startActivityWithData
+import com.project.baetory_rx_validation.ext.toast
+import com.project.baetory_rx_validation.model.UiState
+import com.project.baetory_rx_validation.ui.info.InfoActivity
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.android.synthetic.main.activity_sign_up.*

@@ -7,7 +7,7 @@
 
         <variable
             name="vm"
-            type="com.project.rainist_android_test.ui.login.LoginViewModel" />
+            type="com.project.baetory_rx_validation.ui.login.LoginViewModel" />
 
     </data>
 

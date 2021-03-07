@@ -1,3 +1,3 @@
 include(":local")
 include(":presentation")
-rootProject.name = "Rainist_Android_Test"
+rootProject.name = "Baetory_Rx_Validation"

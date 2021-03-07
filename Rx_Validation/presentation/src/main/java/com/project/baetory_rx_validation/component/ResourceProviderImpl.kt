@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.component
+package com.project.baetory_rx_validation.component
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext

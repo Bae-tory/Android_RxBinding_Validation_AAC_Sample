@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.ui.login
+package com.project.baetory_rx_validation.ui.login
 
 import android.os.Bundle
 import android.util.Patterns
@@ -8,16 +8,16 @@ import android.view.WindowManager
 import androidx.activity.viewModels
 import androidx.core.widget.doOnTextChanged
 import com.jakewharton.rxbinding2.view.RxView
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.base.BaseActivity
-import com.project.rainist_android_test.databinding.ActivityLoginBinding
-import com.project.rainist_android_test.ext.hideKeyboard
-import com.project.rainist_android_test.ext.startActivity
-import com.project.rainist_android_test.ext.startActivityWithData
-import com.project.rainist_android_test.ext.toast
-import com.project.rainist_android_test.model.UiState
-import com.project.rainist_android_test.ui.info.InfoActivity
-import com.project.rainist_android_test.ui.signup.SignUpActivity
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.base.BaseActivity
+import com.project.baetory_rx_validation.databinding.ActivityLoginBinding
+import com.project.baetory_rx_validation.ext.hideKeyboard
+import com.project.baetory_rx_validation.ext.startActivity
+import com.project.baetory_rx_validation.ext.startActivityWithData
+import com.project.baetory_rx_validation.ext.toast
+import com.project.baetory_rx_validation.model.UiState
+import com.project.baetory_rx_validation.ui.info.InfoActivity
+import com.project.baetory_rx_validation.ui.signup.SignUpActivity
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.rxkotlin.addTo

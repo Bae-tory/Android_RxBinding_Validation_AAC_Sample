@@ -1,8 +1,8 @@
-package com.project.rainist_android_test.di
+package com.project.baetory_rx_validation.di
 
 import android.content.Context
-import com.project.rainist_android_test.component.ResourceProvider
-import com.project.rainist_android_test.component.ResourceProviderImpl
+import com.project.baetory_rx_validation.component.ResourceProvider
+import com.project.baetory_rx_validation.component.ResourceProviderImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

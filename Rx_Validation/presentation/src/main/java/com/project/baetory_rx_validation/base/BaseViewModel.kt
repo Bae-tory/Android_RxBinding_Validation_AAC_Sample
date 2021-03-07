@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.base
+package com.project.baetory_rx_validation.base
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.disposables.CompositeDisposable

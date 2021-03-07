@@ -1,13 +1,13 @@
-package com.project.rainist_android_test.base
+package com.project.baetory_rx_validation.base
 
 import android.os.Bundle
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-import com.project.rainist_android_test.BR
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.ext.toast
+import com.project.baetory_rx_validation.BR
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.ext.toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable

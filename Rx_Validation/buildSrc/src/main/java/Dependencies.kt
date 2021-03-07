@@ -15,7 +15,7 @@ object Apps {
     val targetCompatibility: JavaVersion = JavaVersion.VERSION_1_8
     const val JVM_TARGET: String = "1.8"
     const val COMPILE_SDK: Int = 29
-    const val ID: String = "com.project.rainist_android_test"
+    const val ID: String = "com.project.baetory_rx_validation"
     const val MIN_SDK: Int = 23
     const val TARGET_SDK: Int = 29
     const val BUILD_TOOL_VERSION: String = "29.0.3"

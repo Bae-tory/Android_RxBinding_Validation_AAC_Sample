@@ -1,18 +1,18 @@
-package com.project.rainist_android_test.ui.signup
+package com.project.baetory_rx_validation.ui.signup
 
 import android.os.Handler
 import android.util.Patterns
 import androidx.core.os.bundleOf
 import androidx.hilt.lifecycle.ViewModelInject
 import com.project.local.source.LocalDataSource
-import com.project.rainist_android_test.R
-import com.project.rainist_android_test.base.BaseViewModel
-import com.project.rainist_android_test.component.Gender
-import com.project.rainist_android_test.component.ResourceProvider
-import com.project.rainist_android_test.model.UiState
-import com.project.rainist_android_test.model.User
-import com.project.rainist_android_test.model.fromLocal
-import com.project.rainist_android_test.model.toLocal
+import com.project.baetory_rx_validation.R
+import com.project.baetory_rx_validation.base.BaseViewModel
+import com.project.baetory_rx_validation.component.Gender
+import com.project.baetory_rx_validation.component.ResourceProvider
+import com.project.baetory_rx_validation.model.UiState
+import com.project.baetory_rx_validation.model.User
+import com.project.baetory_rx_validation.model.fromLocal
+import com.project.baetory_rx_validation.model.toLocal
 import io.reactivex.Observable
 import io.reactivex.functions.Function6
 import io.reactivex.subjects.BehaviorSubject

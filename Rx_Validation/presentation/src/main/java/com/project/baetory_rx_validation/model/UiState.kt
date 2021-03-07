@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.model
+package com.project.baetory_rx_validation.model
 
 import android.os.Bundle
 

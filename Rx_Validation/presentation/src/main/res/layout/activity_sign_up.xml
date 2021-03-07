@@ -5,11 +5,11 @@
 
     <data>
 
-        <import type="com.project.rainist_android_test.component.Gender" />
+        <import type="com.project.baetory_rx_validation.component.Gender" />
 
         <variable
             name="vm"
-            type="com.project.rainist_android_test.ui.signup.SignUpViewModel" />
+            type="com.project.baetory_rx_validation.ui.signup.SignUpViewModel" />
 
     </data>
 

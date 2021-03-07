@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.ext
+package com.project.baetory_rx_validation.ext
 
 import android.app.Activity
 import android.content.Context

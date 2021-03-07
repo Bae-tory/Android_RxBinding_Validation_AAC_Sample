@@ -1,11 +1,11 @@
-package com.project.rainist_android_test.di
+package com.project.baetory_rx_validation.di
 
 import android.app.Application
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.FormatStrategy
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
-import com.project.rainist_android_test.BuildConfig
+import com.project.baetory_rx_validation.BuildConfig
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp

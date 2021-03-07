@@ -1,7 +1,7 @@
-package com.project.rainist_android_test.component
+package com.project.baetory_rx_validation.component
 
 import android.view.View
-import com.project.rainist_android_test.ui.signup.SignUpActivity.Companion.THROTTLE_TIME
+import com.project.baetory_rx_validation.ui.signup.SignUpActivity.Companion.THROTTLE_TIME
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo

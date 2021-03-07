@@ -1,4 +1,4 @@
-package com.project.rainist_android_test.model
+package com.project.baetory_rx_validation.model
 
 import com.project.local.room.model.RoomDataEntity
 
